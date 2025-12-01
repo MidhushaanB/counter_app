@@ -1,7 +1,7 @@
 <template>
     <div :class="['min-h-screen transition-colors duration-300', isDark ? 'bg-background_primary' : 'bg-white']">
         <Header :isDark="isDark" @toggle-theme="toggleTheme" />
-        <div class="flex justify-center align-middle">
+        <div class="flex justify-center align-middle pt-40">
             <div class="flex flex-col justify-center align-middle">
                 <InptBox :isDark="isDark" :count="count" />
                 <div class="flex flex-row justify-evenly align-middle mt-10">
